@@ -29,4 +29,5 @@ class MiniTestPracticeTest < Minitest::Test
     assert_equal true,  @main.even?(2),  '2 is even'
     assert_equal true,  @main.even?(10000), '10000 is even'
   end
+
 end
